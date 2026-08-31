@@ -1,0 +1,25 @@
+*{ margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; }
+body { background-color: #f4f6f9; color: #333; }
+/* Navbar */ .navbar { display: flex; justify-content: space-between; align-items: center; background-color: #0b192c; padding: 15px 50px; color: white; }
+.logo { display: flex; align-items: center; gap: 10px; font-size: 22px; font-weight: bold; color: #1e90ff; }
+.logo span { color: white; letter-spacing: 1px; }
+.logo small { display: block; font-size: 10px; color: #1e90ff; }
+.nav-links { display: flex; gap: 30px; }
+.nav-links a { color: #cbd5e1; text-decoration: none; font-size: 15px; transition: color 0.3s; }
+.nav-links a:hover, .nav-links a.active { color: #ffffff; }
+/* Hero Section */ .hero { background: linear-gradient(rgba(11, 25, 44, 0.75), rgba(11, 25, 44, 0.75)), url('https://images.unsplash.com/photo-1615840287214-7ff58936c4cf?auto=format&fit=crop&w=1600&q=80') no-repeat center center/cover; height: 70vh; display: flex; align-items: center; padding: 0 80px; color: white; }
+.hero-content h1 { font-size: 42px; max-width: 600px; line-height: 1.2; margin-bottom: 15px; }
+.hero-content p { font-size: 16px; color: #cbd5e1; margin-bottom: 30px; }
+/* Services Section */ .services-section { padding: 60px 20px; text-align: center; }
+.services-section h2 { font-size: 24px; margin-bottom: 40px; letter-spacing: 1px; }
+.services-grid { display: flex; justify-content: center; gap: 30px; flex-wrap: wrap; max-width: 1100px; margin: 0 auto; }
+.service-card { background: white; padding: 35px 25px; border-radius: 12px; width: 320px; box-shadow: 0 4px 15px rgba(0,0,0,0.05); text-align: center; transition: transform 0.3s; }
+.service-card:hover { transform: translateY(-5px); }
+.service-icon { font-size: 36px; color: #1e90ff; margin-bottom: 20px; }
+.service-card h3 { font-size: 16px; margin-bottom: 12px; }
+.service-card p { font-size: 13px; color: #666; line-height: 1.5; }
+/* Footer */ footer { background-color: #0b192c; color: white; padding: 50px 80px 20px; }
+.footer-container { display: flex; justify-content: space-evenly; gap: 30px; max-width: 1100px; margin: 0 auto; padding-bottom: 40px; border-bottom: 1px solid rgba(255,255,255,0.1); }
+.footer-col h4 { font-size: 15px; margin-bottom: 15px; color: #ffffff; }
+.footer-col p { font-size: 13px; color: #94a3b8; margin-bottom: 8px; }
+.footer-bottom { text-align: center; padding-top: 20px; font-size: 12px; color: #64748b; }
